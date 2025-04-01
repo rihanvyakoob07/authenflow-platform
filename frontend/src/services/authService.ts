@@ -1,4 +1,3 @@
-
 import api from "./api";
 
 export interface UserCredentials {
@@ -15,7 +14,6 @@ export interface AuthResponse {
     id: string;
     name: string;
     email: string;
-    role?: string;
   };
   token: string;
 }
